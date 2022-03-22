@@ -1,21 +1,44 @@
 @font-face {
-  font-family: "gliten";
-  src: url("GLITTEN ALL CAPS.ttf");
+  font-family: 'ZenzeroGrotesk';
+  src: url('ZenzeroGrotesk-Regular.eot'); /* IE9 Compat Modes */
+  src: url('ZenzeroGrotesk-Regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('ZenzeroGrotesk-Regular.woff') format('woff'), /* Modern Browsers */
+       url('ZenzeroGrotesk-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('ZenzeroGrotesk-Regular.svg#ZenzeroGrotesk-Regular') format('svg'); /* Legacy iOS */
+  font-style: normal;
+  font-weight: normal;
+  text-rendering: optimizeLegibility;
+}
+h1 {
+  font-family: 'ZenzeroGrotesk'
+}
+* {
+  margin: 3px;
+  padding: 0;
+  box-sizing: border-box;
 }
 p {
   color: black;
+  font-weight: bold;
 }
 body {
-  background-color: #007a39;
+  background-color: white;
 }
 .box > img {
   width: 275px;
   height: 240px;
 }
+.box1 > img {
+  width: 275px;
+  height: 240px
+}
 .header {
   display: flex;
   gap: 20px;
   justify-content: center;
+}
+img {
+  border: 7px double black;
 }
 .header > h1 {
   align-self: center;
@@ -24,15 +47,23 @@ body {
   display: flex;
   gap: 20px;
 }
+.section1 > p {
+  align-self: center;
+  border: 2px solid black;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+
+}
 .whiteborder {
-  border: 2px solid white;
+  border: 2px solid black;
   padding-left: 10px;
   padding-bottom: 6px;
   padding-right: 10px;
 }
 .section2 {
   display: flex;
-  flex-wrap: nowrap;
+  flex-wrap: wrap;
   gap: 10px;
 }
 .box {
@@ -51,7 +82,7 @@ table {
   /* margin-left: 50%;
   margin-right: 100%; */
   margin: auto;
-  border: 3px solid white;
+  border: 3px solid black;
 }
 th {
   background-color: grey;
