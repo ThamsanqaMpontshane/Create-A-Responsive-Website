@@ -11,7 +11,7 @@ table, td, th {
   }
   th {
     background-color: rgb(128,128,128,0.5);
-    color:black;
+    color: red;
   }
   .row > div {
       background-color: lightblue;
