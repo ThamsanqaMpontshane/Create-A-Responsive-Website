@@ -12,6 +12,11 @@
 h1 {
   font-family: 'ZenzeroGrotesk'
 }
+.container {
+  max-width 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
 * {
   margin: 3px;
   padding: 0;
@@ -22,7 +27,7 @@ p {
   font-weight: bold;
 }
 body {
-  background-color: #F5F5E9;
+  background-color: #94A187;
 }
 .box > img {
   width: 275px;
@@ -31,6 +36,9 @@ body {
 .box1 > img {
   width: 275px;
   height: 240px
+}
+.njer {
+  margin: 0 auto;
 }
 .header {
   display: flex;
@@ -46,6 +54,7 @@ img {
 .section1 {
   display: flex;
   gap: 20px;
+  margin:0 200px 0 200px;
 }
 .section1 > p {
   align-self: center;

@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@ciar4n/izmir": "^1.0.1",
     "prismic-javascript": "^3.0.2"
   }
 }
