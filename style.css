@@ -35,7 +35,11 @@ p {
   color: black;
   font-weight: bold;
 }
-
+.p2{
+  margin-left: 358px;
+  width: 540px;
+  text-align: center;
+}
 body {
   background-color: #94A187;
 }
@@ -70,6 +74,7 @@ img {
 
 .section1 {
   display: flex;
+  flex-direction: row;
   gap: 20px;
   margin: 0 200px 0 200px;
 }
@@ -82,7 +87,12 @@ img {
   padding-left: 10px;
 
 }
-
+.section3{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  text-align: center;
+}
 .whiteborder {
   /* border: 2px solid black; */
   padding-left: 10px;
@@ -168,36 +178,49 @@ td {
 @media (max-width:400px) {
   * {
     margin-left: 0px;
+    box-sizing: border-box;
   }
 
   .header {
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
   }
 
   .header>h1 {
-    align-self: flex-start;
-    margin-left: 62px;
+    color: black;
+    width: 300px;
+    font-size: 24px;
+    margin-right: 0px;
+    margin-left: 58px;
+    color: blue;
   }
 
   .section1>img {
-    width: 90%;
-    height: 250px;
-    margin-left: 18px;
+    width: 300px;
+    height: 200px;
+    margin: 10px;
   }
 
   .section1 {
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 0px;
     flex-wrap: wrap;
     margin: 0;
   }
 
   table {
-    width: 190px;
-  }
+    width: 300px;
+    margin-right: 0px;
+    margin-left:30px;
 
+  }
+ td {
+   text-align: center;
+ }
   .section2 {
     display: flex;
     flex-direction: column;
@@ -206,6 +229,9 @@ td {
   .box {
     display: flex;
     flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    column-gap: 10px;
   }
 
   body {
@@ -213,13 +239,13 @@ td {
   }
 
   .header>img {
-    width: 280px;
-    margin-left: 50px;
+    width: 290px;
+    margin-left: 0px;
+    margin-right: 0px;
   }
 
   h1 {
-    margin-left: 35px;
-    font-size: 25px;
+    font-size: 20px;
   }
 
   .container {
@@ -231,33 +257,49 @@ td {
   }
 
   p {
-    width: 290px;
+    width: 280px;
     padding-left: 0px;
-    margin: 0px 30px;
+    margin: 0px 0px;
   }
 
   .box>img {
-    width: 90%;
-    /* margin-left: 18px; */
+    width: 260px;
+    height: 180px;
+    margin-left: 3px;
   }
-
+  .box > p{
+    margin-left: 0px;
+  }
   .p1 {
-    margin-left: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 300px;
   }
 
   .p2 {
-    margin: 0 auto;
+    /* margin-left: 5px; */
+    width: 320px;
+    margin-left: 20px;
   }
 
   .hedder1 {
-    margin-left: 120px;
+    margin-left: 13px;
+    color: red;
   }
 
   .hedder2 {
-    margin-left: 92px;
+    margin-left: 89px;
+    width: 200px;
+    color: red;
   }
 
   .hedder3 {
-    margin-left: 125px;
+    margin-left: 95px;
+    width: 200px;
+    color: red;
+  }
+  h3 {
+    width: 220px;
+    margin-left: 20px;
   }
 }
