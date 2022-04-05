@@ -180,42 +180,57 @@ td {
     margin-left: 0px;
     box-sizing: border-box;
   }
-
+  .container{
+    width: 100%;
+  }
+  .njer{
+    width: 100%;
+  }
+  body{
+    width: 100%;
+  }
+  html{
+    width: 100%;
+  }
   .header {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
   }
-
+  html{
+    width: 100%;
+  }
   .header>h1 {
     color: black;
-    width: 300px;
+    width: 90%;
     font-size: 24px;
     margin-right: 0px;
-    margin-left: 58px;
+    margin-left: 99px;
     color: blue;
   }
 
   .section1>img {
-    width: 300px;
+    width: 90%;
     height: 200px;
-    margin: 10px;
+    margin-left: 8px;
   }
 
   .section1 {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 0px;
+    gap: 10px;
     flex-wrap: wrap;
     margin: 0;
   }
 
   table {
-    width: 300px;
+    width: 260px;
     margin-right: 0px;
-    margin-left:30px;
+    margin-left:55px;
 
   }
  td {
@@ -239,7 +254,7 @@ td {
   }
 
   .header>img {
-    width: 290px;
+    width: 90%;
     margin-left: 0px;
     margin-right: 0px;
   }
@@ -250,16 +265,19 @@ td {
 
   .container {
     margin-left: 0px;
+    width: 100%;
+    /* background-color: red */
   }
 
   p {
-    font-size: 12px;
+    font-size: 18px;
   }
 
   p {
     width: 280px;
     padding-left: 0px;
     margin: 0px 0px;
+
   }
 
   .box>img {
@@ -268,18 +286,18 @@ td {
     margin-left: 3px;
   }
   .box > p{
-    margin-left: 0px;
+    margin-left: 0px;28px
   }
   .p1 {
-    margin-left: 10px;
+    margin-left: 22px;
     margin-right: 10px;
     width: 300px;
   }
 
   .p2 {
     /* margin-left: 5px; */
-    width: 320px;
-    margin-left: 20px;
+    width: 300px;
+    margin-left: 34px;
   }
 
   .hedder1 {
@@ -288,18 +306,18 @@ td {
   }
 
   .hedder2 {
-    margin-left: 89px;
+    margin-left: 95px;
     width: 200px;
     color: red;
   }
 
   .hedder3 {
-    margin-left: 95px;
+    margin-left: 111px;
     width: 200px;
     color: red;
   }
   h3 {
     width: 220px;
-    margin-left: 20px;
+    margin-left: 0px;
   }
 }
