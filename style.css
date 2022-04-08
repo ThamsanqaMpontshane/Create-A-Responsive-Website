@@ -33,25 +33,29 @@ h1 {
 
 p {
   color: black;
-  font-weight: bold;
+  font-weight: lighter;
 }
-.p2{
-  margin-left: 358px;
+
+.p2 {
+  margin-left: 400px;
   width: 540px;
   text-align: center;
 }
+
 body {
   background-color: #94A187;
+  /* overflow:hidden; */
 }
 
-.box>img {
+/* .box>img {
   width: 275px;
   height: 240px;
-}
+} */
 
-.box1>img {
+.box1 {
   width: 179.66px;
-  height: 240px
+  height: 240px;
+  padding-right: 10px;
 }
 
 .njer {
@@ -87,12 +91,14 @@ img {
   padding-left: 10px;
 
 }
-.section3{
+
+.section3 {
   display: flex;
   flex-direction: column;
   gap: 20px;
   text-align: center;
 }
+
 .whiteborder {
   /* border: 2px solid black; */
   padding-left: 10px;
@@ -107,18 +113,24 @@ img {
   gap: 10px;
 }
 
-.section2>p {
+/* .section2>p {
   align-self: flex-end;
-}
+  font-size: 50px;
+  color: red;
+} */
 
 .section2>img {
   align-self: flex-start;
 }
 
+.paragraphs {
+  font-size: 17px;
+}
+
 .box {
-  display: flex;
+  /* display: flex;
   flex-direction: row;
-  gap: 10px;
+  gap: 10px; */
 }
 
 hr {
@@ -133,17 +145,17 @@ hr {
 }
 
 .hedder3 {
-  margin: 0px 516px;
+  margin: 0px 570px;
 }
 
 .hedder2 {
-  margin: 0px 520px;
+  margin: 0px 562px;
 }
 
 .hedder1 {
-  margin: 0px 560px;
+  margin: 0px 600px;
   /* 0 560px */
- 
+
 }
 
 /* TABLE */
@@ -168,7 +180,7 @@ table {
 }
 
 td {
-  margin-left: 60px;
+  /* margin-left: 60px; */
 }
 
 /* th {
@@ -181,20 +193,26 @@ td {
     margin-left: 0px;
     box-sizing: border-box;
   }
-  .container{
+
+  .container {
     width: 100%;
   }
-  .njer{
+
+  .njer {
     width: 100%;
 
   }
-  body{
+
+  body {
     width: 100%;
     overflow-x: hidden;
+    /* overflow-y: hidden; */
   }
-  html{
+
+  html {
     width: 100%;
   }
+
   .header {
     display: flex;
     flex-direction: column;
@@ -202,22 +220,25 @@ td {
     align-items: center;
     width: 100%;
   }
-  html{
+
+  html {
     width: 100%;
   }
+
   .header>h1 {
     color: black;
     width: 90%;
     font-size: 24px;
     margin-right: 0px;
-    margin-left: 99px;
+    margin-left: 120px;
+    margin-top: 10px;
     color: blue;
   }
 
   .section1>img {
     width: 90%;
     height: 200px;
-    margin-left: 8px;
+    margin-left: 20px;
   }
 
   .section1 {
@@ -228,17 +249,20 @@ td {
     gap: 10px;
     flex-wrap: wrap;
     margin: 0;
+    New
   }
 
   table {
     width: 260px;
     margin-right: 0px;
-    margin-left:55px;
+    margin-left: 75px;
 
   }
- td {
-   text-align: center;
- }
+
+  td {
+    text-align: center;
+  }
+
   .section2 {
     display: flex;
     flex-direction: column;
@@ -254,13 +278,13 @@ td {
 
   body {
     margin: 0px;
-    
+
   }
 
   .header>img {
     width: 90%;
     height: 200px;
-    margin-left: 0px;
+    margin-left: 32px;
     margin-right: 0px;
   }
 
@@ -284,25 +308,43 @@ td {
     margin: 0px 0px;
 
   }
+ .box2 {
+   margin-left: 53px;
+ }
+  .paragraphs {
+    color: whitesmoke;
+    width: 95%;
+    padding-left: 40px;
+    padding-top: 20px;
+  }
 
-  .box>img {
+  .box1 {
+    width: 340px;
+    padding-right: 20px;
+    padding-left: 0px;
+  }
+
+  /* .box>img {
     width: 260px;
     height: 180px;
     margin-left: 3px;
+  } */
+  .box>p {
+    margin-left: 0px;
+    float: left;
   }
-  .box > p{
-    margin-left: 0px;28px
-  }
+
   .p1 {
     margin-left: 22px;
-    margin-right: 10px;
-    width: 300px;
+    padding-left: 10px;
+    width: 370px;
+    color: black;
   }
 
   .p2 {
     /* margin-left: 5px; */
-    width: 300px;
-    margin-left: 34px;
+    width: 340px;
+    margin-left: 31px;
   }
 
   .hedder1 {
@@ -311,7 +353,7 @@ td {
   }
 
   .hedder2 {
-    margin-left: 95px;
+    margin-left: 110px;
     width: 200px;
     color: red;
   }
@@ -321,6 +363,7 @@ td {
     width: 200px;
     color: red;
   }
+
   h3 {
     width: 220px;
     margin-left: 0px;
