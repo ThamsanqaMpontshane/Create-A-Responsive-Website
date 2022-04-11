@@ -249,7 +249,6 @@ td {
     gap: 10px;
     flex-wrap: wrap;
     margin: 0;
-    New
   }
 
   table {
@@ -312,7 +311,8 @@ td {
    margin-left: 53px;
  }
   .paragraphs {
-    color: whitesmoke;
+    font-size: 19px;
+    color: black;
     width: 95%;
     padding-left: 40px;
     padding-top: 20px;
